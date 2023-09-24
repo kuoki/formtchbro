@@ -1,0 +1,30 @@
+.header-layout {
+    padding: 50px;
+    background-color: #F7E6C4;
+    color: #606C5D;
+    box-shadow: 0 3px 13px 1px rgb(0, 0, 0, 9%);
+    text-align: center;
+}
+
+.nav-layout{
+    display: flex;
+    flex-direction: row;
+    background-color: #435334;
+
+}
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.sidebar-layout{
+    flex: 30px;
+    padding: 20px;
+}
+
+
+footer{
+    padding: 20px;
+    background-color: #9EB384;
+}
