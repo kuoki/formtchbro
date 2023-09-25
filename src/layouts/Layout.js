@@ -1,5 +1,11 @@
 import React from "react";
 import '../layouts/Layout.css'
+import Navbar from "./common/navbar/Navbar";
+import Footer from "./common/footer/Footer";
+import Sidebar from "./common/sidebar/Sidebar";
+import Header from "./common/header/Header";
+
+
 
 
 function Layout(){
@@ -7,20 +13,10 @@ function Layout(){
 
     return (
         <div className='contenedor-layout'>
-            <div> 
-                <header className="header-layout">
-                    <h1> Formulario </h1>
-                </header> 
-                    </div>
-            <div className='sidebar-layout'>sidebar</div>
-            <div className='nav-layout'> 
-                <nav>
-                    <a href="#"> Home </a>
-                    <a href="#"> Noticias </a>
-                    <a href="#"> Sobre Nosotros</a>
-                    <a href="#"> Contacto </a>
-                </nav> </div>
-            <div className='footer-layout'> <footer> <h1> Footer </h1> </footer></div>
+            < Header />
+            < Navbar />
+            < Sidebar />
+            < Footer />
         </div>
         
     )
