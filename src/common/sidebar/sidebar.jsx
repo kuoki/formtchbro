@@ -12,28 +12,25 @@ function Sidebar() {
       <ul className="nav nav-pills flex-column mt-3 mt-sm-0">
         <li className="nav-item fs-4">
           <a href="/" className="nav-link text-white" aria-current='page'>
-            <i class="bi bi-1-circle"></i>
-            <span className="ms-3 d-none d-sm-inline"> 1 </span> </a>
+            <i className="bi bi-1-circle"></i>
+            <span className="ms-3 d-none d-sm-inline"> Home </span> </a>
         </li>
         <li className="nav-item text-white fs-4 my-1 py-2 py-sm-0">
 
-          <a href="/" className="nav-link text-white" aria-current='page'>
-            <i class="bi bi-2-circle"></i>
-            <span className="ms-3 d-none d-sm-inline"> 2 </span> </a>
+          <a href="/form" className="nav-link text-white" aria-current='page'>
+            <i className="bi bi-2-circle"></i>
+            <span className="ms-3 d-none d-sm-inline"> Form </span> </a>
         </li>
         <li className="nav-item text-white fs-4 my-1 py-2 py-sm-0">
 
-          <a href="/" className="nav-link text-white" aria-current='page'>
-            <i class="bi bi-3-circle"></i>
-            <span className="ms-3 d-none d-sm-inline"> 3 </span>
+          <a href="/about" className="nav-link text-white" aria-current='page'>
+            <i className="bi bi-3-circle"></i>
+            <span className="ms-3 d-none d-sm-inline"> About </span>
           </a>
         </li>
         <li className="nav-item text-white fs-4 my-1 py-2 py-sm-0">
 
-          <a href="/" className="nav-link text-white" aria-current='page'>
-            <i class="bi bi-4-circle"></i>
-            <span className="ms-3 d-none d-sm-inline"> 4 </span>
-          </a>
+         
         </li>
       </ul>
     </div>
