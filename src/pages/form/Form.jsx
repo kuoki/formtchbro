@@ -1,8 +1,17 @@
+import { useState } from 'react';
 import { useForm } from 'react-hook-form'
 import { useChairManagement } from '../../context/useChairManagement';
-import List from '../list/List';
+
 
 const Form = () => {
+  const chairsData = [
+    { id: 1, name: 'Silla Comedor', material: 'Madera' },
+    { id: 2, name: 'Silla Jardín', material: 'Metal' },
+    { id: 3, name: 'Silla Barra', material: 'Piedra' },
+  ]
+
+  const [newChairsData, newChairsDataSet] = useState(chairsData)
+
   const { register, handleSubmit, reset, formState: { errors, isDirty, isValid } } = useForm();
   const { chairs, actions } = useChairManagement();
 

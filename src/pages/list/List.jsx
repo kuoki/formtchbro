@@ -16,6 +16,7 @@ const List = ( ) => {
             <li className="list-group-item list-group-item-dark mt-2 " key={chair.id}>
               <p>Name: {chair.name}</p>
               <p>Material: {chair.material}</p>
+              <button type="button" class="btn btn-outline-light">Más información</button>
             </li>
           ))}
         </ul>
