@@ -1,5 +1,6 @@
 import React from "react";
 import './sidebar.css'
+import { Link } from "react-router-dom";
 
 
 function Sidebar() {
@@ -17,20 +18,20 @@ function Sidebar() {
         </li>
         <li className="nav-item text-white fs-4 my-1 py-2 py-sm-0">
 
-          <a href="/form" className="nav-link text-white" aria-current='page'>
+          <Link to="/form" className="text-white text-decoration-none" >
             <i className="bi bi-2-circle"></i>
-            <span className="ms-3 d-none d-sm-inline"> Form </span> </a>
+            <span className="ms-3 d-none d-sm-inline"> Form </span> </Link>
         </li>
         <li className="nav-item text-white fs-4 my-1 py-2 py-sm-0">
 
-          <a href="/about" className="nav-link text-white" aria-current='page'>
+          <Link to="/list" className="text-white text-decoration-none">
             <i className="bi bi-3-circle"></i>
-            <span className="ms-3 d-none d-sm-inline"> About </span>
-          </a>
+            <span className="ms-3 d-none d-sm-inline"> List </span>
+          </Link>
         </li>
         <li className="nav-item text-white fs-4 my-1 py-2 py-sm-0">
 
-         
+
         </li>
       </ul>
     </div>
